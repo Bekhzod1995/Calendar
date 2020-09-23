@@ -1,0 +1,34 @@
+.fc button{
+	background-color: white !important;
+	color: black !important;
+	opacity: 0.65 !important;
+	box-shadow: 0 !important;
+	border-color: rgb(189, 189, 189) !important;
+}
+
+.fc button:focus{
+	box-shadow: 0px 0px 0px 0px red !important;
+}
+
+.fc .fc-button-active {
+	opacity: 1 !important;
+	background-color: red !important;
+	color: white !important;
+}
+
+.fc .fc-button-active:focus {
+	box-shadow: 0px 0px 0px 0px red !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus {
+	box-shadow: 0px 0px 0px 0px red !important;
+}
+
+.fc-col-header-cell-cushion {
+	color: black !important;
+	opacity: 0.5 !important;
+}
+
+.fc-daygrid-day-number {
+	color: black !important;
+}
