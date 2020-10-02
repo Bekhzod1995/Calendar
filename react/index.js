@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
+import './styles/index.less';
 import App from './components/App';
-import './styles/style.css';
+import 'react-modern-calendar-datepicker/lib/DatePicker.css';
 
 ReactDOM.render(<App />, document.getElementById('app'));

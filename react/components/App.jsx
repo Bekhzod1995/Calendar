@@ -1,12 +1,14 @@
 import React from 'react';
-import Calendar from './Calendar';
-import Header from './Header';
+import TopHeader from './TopHeader';
+import BottomHeader from './BottomHeader';
+import Body from './Body';
 
-const App = () => (
-	<>
-		<Header />
-		<Calendar />
-	</>
+export const App = () => (
+    <>
+        <TopHeader />
+        <BottomHeader />
+        <Body />
+    </>
 );
 
 export default App;

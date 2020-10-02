@@ -1,0 +1,87 @@
+@primaryColor: rgb(187, 2, 2);
+body {
+    margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+}
+
+.badge {
+    position: absolute;
+    border-radius: 50%;
+    background-color:@primaryColor;
+    color: white;
+    margin-left: -23px;
+    font-size: 24px;
+    margin-top: -10px;
+    padding: 0 5px;
+}
+
+.Mobilebadge {
+    position: absolute;
+    border-radius: 50%;
+    background-color:@primaryColor;
+    color: white;
+    margin-left: -14px;
+    font-size: 16px;
+    margin-top: -9px;
+    padding: 0 5px;
+}
+
+.fc-button-active {
+    background-color: @primaryColor !important;
+}
+
+.fc button{
+	background-color: white !important;
+	color: black !important;
+	opacity: 0.65 !important;
+	box-shadow: 0 !important;
+	border-color: rgb(189, 189, 189) !important;
+}
+
+.fc button:focus{
+	box-shadow: 0px 0px 0px 0px @primaryColor !important;
+}
+
+.fc .fc-button-active {
+	opacity: 1 !important;
+	background-color: @primaryColor !important;
+	color: white !important;
+}
+
+.fc .fc-button-active:focus {
+	box-shadow: 0px 0px 0px 0px @primaryColor !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus {
+	box-shadow: 0px 0px 0px 0px @primaryColor !important;
+}
+
+.fc-col-header-cell-cushion {
+	color: black !important;
+	opacity: 0.5 !important;
+}
+
+.fc-daygrid-day-number {
+	color: black !important;
+}
+
+.custom-calendar {
+	box-shadow: 0 1em 3em rgba(156, 136, 255,0.2);
+	font-size: 9px !important;
+	width: 75vw !important;
+}
+
+.custom-today-day {
+	background-color: @primaryColor;
+	color: white !important;
+}
+
+.custom-today-day::after {
+  visibility: hidden;
+}
+
+
+.fc-toolbar-chunk {
+	font-size: 9pt;
+}
